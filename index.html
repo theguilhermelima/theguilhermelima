@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Walison Lima | Portifolio</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <!-- Profile Section -->
+        <div class="container">
+            <div class="profile-header">
+                <img
+                    src="./images/perfil.png"
+                    alt="Walison Lima"
+                    class="profile-image"
+                />
+                <div class="profile-info">
+                    <h2 class="profile-name">
+                        Walison Lima
+                        <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="#4A90E2"
+                            class="verified"
+                        >
+                            <path
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            />
+                        </svg>
+                    </h2>
+                    <p class="profile-title">Engenheiro de Software.</p>
+                </div>
+            </div>
+
+            <div class="profile-stacks">
+                <p>💻 Tecnologias & Ferramentas</p>
+                <br />
+                <img
+                    align="center"
+                    alt="JavaScript"
+                    title="JavaScript"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                />
+                <img
+                    align="center"
+                    alt="TypeScript"
+                    title="TypeScript"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
+                />
+                <img
+                    align="center"
+                    alt="React"
+                    title="React"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                />
+                <img
+                    align="center"
+                    alt="Vue"
+                    title="Vue"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
+                />
+                <img
+                    align="center"
+                    alt="Python"
+                    title="Python"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                />
+                <img
+                    align="center"
+                    alt="Java"
+                    title="Java"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                />
+            </div>
+
+            <!-- Stats -->
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-icon"
+                        >📂 <span class="stat-label">Projetos</span></span
+                    >
+                    <span class="stat-value" id="total-projects">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon"
+                        >💼 <span class="stat-label">Trabalhos</span></span
+                    >
+                    <span class="stat-value" id="trabalho-projects">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon"
+                        >📚 <span class="stat-label">Estudos</span></span
+                    >
+                    <span class="stat-value" id="estudo-projects">0</span>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a
+                    href="https://www.linkedin.com/in/walison-lima-079a74257/"
+                    target="_blank"
+                    class="social-btn"
+                >
+                    <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                        />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </a>
+                <a
+                    href="https://github.com/thewalisonlima"
+                    target="_blank"
+                    class="social-btn"
+                >
+                    <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                        />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab active" data-tab="about">
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8z"
+                        />
+                        <path
+                            d="M12 11h-1v5h2v-5h-1zm0-4a1 1 0 100 2 1 1 0 000-2z"
+                        />
+                    </svg>
+                    Sobre mim
+                </button>
+                <button class="tab" data-tab="projects">
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                    >
+                        <path
+                            d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"
+                            stroke-width="2"
+                        />
+                    </svg>
+                    Projetos
+                </button>
+                <button class="tab" data-tab="details">
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <path
+                            d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                        />
+                    </svg>
+                    Detalhes
+                </button>
+            </div>
+
+            <!-- About Content -->
+            <div class="tab-content active" id="about">
+                <p class="bio">
+                    Estudante de Engenharia de Software na Estácio, apaixonado
+                    por resolver problemas e criar soluções eficientes. Sou uma
+                    pessoa flexível com habilidades técnicas, sempre buscando
+                    aproveitar ao máximo as ferramentas disponíveis para
+                    construir sistemas que realmente fazem a diferença.
+                </p>
+            </div>
+
+            <!-- Projects Content (Hidden) -->
+            <div class="tab-content" id="projects">
+                <p>Conteúdo dos projetos será exibido aqui...</p>
+            </div>
+
+            <!-- Details Content (Hidden) -->
+            <div class="tab-content" id="details">
+                <div class="details-section">
+                    <h3>📊 Linguagens Mais Usadas</h3>
+                    <div class="languages-list" id="languages-list">
+                        <p
+                            style="
+                                color: var(--text-secondary);
+                                font-size: 13px;
+                            "
+                        >
+                            Carregando...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="details-section">
+                    <h3>🏆 Destaques</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">⭐</div>
+                            <div class="highlight-value" id="total-stars">
+                                0
+                            </div>
+                            <div class="highlight-label">Stars</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🔄</div>
+                            <div class="highlight-value" id="total-forks">
+                                0
+                            </div>
+                            <div class="highlight-label">Forks</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">📦</div>
+                            <div class="highlight-value" id="public-repos">
+                                0
+                            </div>
+                            <div class="highlight-label">Repositórios</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hire Button -->
+            <a
+                href="https://www.linkedin.com/in/walison-lima-079a74257/"
+                target="_blank"
+                class="hire-btn"
+            >
+                Contrate-me
+                <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                >
+                    <path
+                        d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"
+                        stroke-width="2"
+                    />
+                </svg>
+            </a>
+        </div>
+
+        <!-- Scripts -->
+        <script src="api/getPortifolio.js"></script>
+        <script src="scripts/stats-loader.js"></script>
+        <script src="scripts/projects-loader.js"></script>
+        <script src="scripts/details-loader.js"></script>
+        <script src="scripts/tabs.js"></script>
+    </body>
+</html>
