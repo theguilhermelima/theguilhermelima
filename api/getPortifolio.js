@@ -3,7 +3,7 @@
  * Filtra projetos por tópicos: "trabalho" e "estudo"
  */
 
-const GITHUB_USERNAME = 'thewalisonlima';
+const GITHUB_USERNAME = 'theguilhermelima';
 const GITHUB_API_URL = `https://api.github.com/users/${GITHUB_USERNAME}/repos`;
 
 /**
