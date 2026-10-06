@@ -1,10 +1,10 @@
 ## Olá! Eu sou o Walison Lima 👋
 
-Estudante de **Engenharia de Software** na Estácio, apaixonado por resolver problemas e criar soluções eficientes. Sou uma pessoa flexível com habilidades técnicas, sempre buscando aproveitar ao máximo as ferramentas disponíveis para construir sistemas que realmente fazem a diferença.
+Sou **Engenharia de Software**, apaixonado por resolver problemas e criar soluções eficientes. Sou uma pessoa flexível com habilidades técnicas, sempre buscando aproveitar ao máximo as ferramentas disponíveis para construir sistemas que realmente fazem a diferença.
 
 ### 🎯 Meu Foco Atual
 
-Estou em uma jornada para desenvolver expertise em **sistemas ERP (Enterprise Resource Planning)**, combinando desenvolvimento web, backend robusto e automação inteligente. Meu objetivo é criar sistemas que centralizem dados, otimizem processos e integrem automação com IA para melhorar a gestão empresarial.
+Estou em uma jornada para desenvolver expertise em **sistemas de gestão**, combinando desenvolvimento web, backend robusto e automação inteligente. Meu objetivo é criar sistemas que centralizem dados, otimizem processos e integrem automação com IA para melhorar a gestão empresarial.
 
 **Stack em desenvolvimento:**
 
