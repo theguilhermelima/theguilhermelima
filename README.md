@@ -40,7 +40,7 @@ Estou em uma jornada para desenvolver expertise em **sistemas ERP (Enterprise Re
 ### 📫 Como me encontrar
 
 <div> 
-  <a href="https://www.linkedin.com/in/walison-lima-079a74257/" target="_blank">
+  <a href="https://www.linkedin.com/in/guilherme-lima-079a74257/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
   </a>
 </div>
