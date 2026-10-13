@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Guilherme Lima | Portifolio</title>
+        <meta
+            name="description"
+            content="Portfólio de Guilherme Lima - Engenheiro de Software"
+        />
+        <meta name="theme-color" content="#171a19" />
+
+        <!-- Favicons -->
+        <link rel="icon" href="./images/icon.png" />
+        <link rel="apple-touch-icon" href="./images/icon.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="./images/icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/icon.png" />
+        <link rel="apple-touch-icon" sizes="167x167" href="./images/icon.png" />
+
+        <!-- Android/Chrome -->
+        <link rel="icon" sizes="192x192" href="./images/icon.png" />
+        <link rel="icon" sizes="512x512" href="./images/icon.png" />
+
+        <!-- Manifest -->
+        <link rel="manifest" href="./manifest.json" />
+
+        <link rel="stylesheet" href="./styles/global.css" />
+        <link rel="stylesheet" href="./styles/landing.css" />
+        <link rel="stylesheet" href="./styles/body.css" />
+    </head>
+
+    <body>
+        <section class="landing" aria-label="Apresentação">
+            <div class="landing-content">
+                <div class="landing-intro">
+                    <hgroup class="landing-copy">
+                        <p class="landing-eyebrow">Olá, seja bem-vindo</p>
+                        <h1>Transformo ideias em soluções digitais.</h1>
+                        <p id="maquina" aria-label="Engenheiro de Software"></p>
+                        <p class="landing-description">
+                            Desenvolvo software para resolver problemas e criar
+                            experiências digitais eficientes.
+                        </p>
+                    </hgroup>
+                </div>
+
+                <div class="landing-portrait">
+                    <img
+                        src="./images/perfil.png"
+                        alt="Guilherme Lima, engenheiro de software"
+                    />
+                    <div class="landing-actions">
+                        <a class="landing-scroll" href="#destaque">
+                            <span>Conheça meu trabalho</span>
+                            <svg
+                                id="mouse-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                width="20"
+                                height="20"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M12 5v14m-6-6 6 6 6-6"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </a>
+                        <button
+                            class="theme-toggle"
+                            id="theme-toggle"
+                            type="button"
+                            aria-label="Ativar tema escuro"
+                            title="Ativar tema escuro"
+                        >
+                            <svg
+                                class="theme-icon theme-icon-sun"
+                                data-theme-icon="light"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                width="20"
+                                height="20"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                aria-hidden="true"
+                            >
+                                <circle cx="12" cy="12" r="4" />
+                                <path
+                                    d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"
+                                />
+                            </svg>
+                            <svg
+                                class="theme-icon theme-icon-moon"
+                                data-theme-icon="dark"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                width="20"
+                                height="20"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                hidden
+                            >
+                                <path
+                                    d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"
+                                />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Profile Section -->
+        <div class="container" id="destaque">
+            <div class="profile-header">
+                <img
+                    src="./images/perfil.png"
+                    alt="Guilherme Lima"
+                    class="profile-image"
+                />
+                <div class="profile-info">
+                    <h2 class="profile-name">
+                        Guilherme Lima
+                        <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            class="verified"
+                        >
+                            <path
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            />
+                        </svg>
+                    </h2>
+                    <p class="profile-title">Engenheiro de Software.</p>
+                </div>
+            </div>
+
+            <div class="profile-stacks">
+                <p>💻 Tecnologias & Ferramentas</p>
+                <div class="stack-groups">
+                    <div class="stack-group">
+                        <h3>Frontend</h3>
+                        <div class="stack-icons">
+                            <img
+                                alt="JavaScript"
+                                title="JavaScript"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                            />
+                            <img
+                                alt="TypeScript"
+                                title="TypeScript"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
+                            />
+                            <img
+                                alt="React"
+                                title="React"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                            />
+                            <img
+                                alt="Tailwind CSS"
+                                title="Tailwind CSS"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
+                            />
+                            <img
+                                alt="Styled Components"
+                                title="Styled Components"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/styledcomponents/styledcomponents-original.svg"
+                            />
+                        </div>
+                    </div>
+                    <div class="stack-group">
+                        <h3>Linguagens, frameworks e análise</h3>
+                        <div class="stack-icons">
+                            <img
+                                alt="Python"
+                                title="Python"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                            />
+                            <img
+                                alt="Java"
+                                title="Java"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                            />
+                            <img
+                                alt="Spring Boot"
+                                title="Spring Boot"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"
+                            />
+                            <img
+                                alt="Jupyter"
+                                title="Jupyter"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg"
+                            />
+                        </div>
+                    </div>
+                    <div class="stack-group">
+                        <h3>Ferramentas</h3>
+                        <div class="stack-icons">
+                            <img
+                                alt="Git"
+                                title="Git"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+                            />
+                            <img
+                                alt="Docker"
+                                title="Docker"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+                            />
+                            <img
+                                alt="Postman"
+                                title="Postman"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg"
+                            />
+                            <img
+                                alt="DBeaver"
+                                title="DBeaver"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dbeaver/dbeaver-original.svg"
+                            />
+                        </div>
+                    </div>
+                    <div class="stack-group">
+                        <h3>Bancos de dados e serviços</h3>
+                        <div class="stack-icons">
+                            <img
+                                alt="SQLite"
+                                title="SQLite"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg"
+                            />
+                            <img
+                                alt="MySQL"
+                                title="MySQL"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+                            />
+                            <img
+                                alt="Firebase"
+                                title="Firebase"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg"
+                            />
+                            <img
+                                alt="PostgreSQL"
+                                title="PostgreSQL"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
+                            />
+                            <img
+                                alt="MongoDB"
+                                title="MongoDB"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-icon"
+                        >📂 <span class="stat-label">Projetos</span></span
+                    >
+                    <span class="stat-value" id="total-projects">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon"
+                        >💼 <span class="stat-label">Trabalhos</span></span
+                    >
+                    <span class="stat-value" id="trabalho-projects">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon"
+                        >📚 <span class="stat-label">Estudos</span></span
+                    >
+                    <span class="stat-value" id="estudo-projects">0</span>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a
+                    href="https://www.linkedin.com/in/guilherme-lima-079a74257/"
+                    target="_blank"
+                    class="social-btn"
+                >
+                    <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                        />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </a>
+                <a
+                    href="https://github.com/theguilhermelima"
+                    target="_blank"
+                    class="social-btn"
+                >
+                    <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                        />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab active" data-tab="about">
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8z"
+                        />
+                        <path
+                            d="M12 11h-1v5h2v-5h-1zm0-4a1 1 0 100 2 1 1 0 000-2z"
+                        />
+                    </svg>
+                    Sobre mim
+                </button>
+                <button class="tab" data-tab="projects">
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                    >
+                        <path
+                            d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"
+                            stroke-width="2"
+                        />
+                    </svg>
+                    Projetos
+                </button>
+                <button class="tab" data-tab="details">
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <path
+                            d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                        />
+                    </svg>
+                    Detalhes
+                </button>
+            </div>
+
+            <!-- About Content -->
+            <div class="tab-content active" id="about">
+                <p class="bio">
+                    Engenheiro de Software apaixonado por resolver problemas e
+                    criar soluções eficientes. Sou uma pessoa flexível com
+                    habilidades técnicas, sempre buscando aproveitar ao máximo
+                    as ferramentas disponíveis para construir sistemas que
+                    realmente fazem a diferença.
+                </p>
+            </div>
+
+            <!-- Projects Content (Hidden) -->
+            <div class="tab-content" id="projects">
+                <p>Conteúdo dos projetos será exibido aqui...</p>
+            </div>
+
+            <!-- Details Content (Hidden) -->
+            <div class="tab-content" id="details">
+                <div class="details-section">
+                    <h3>📊 Linguagens Mais Usadas</h3>
+                    <div class="languages-list" id="languages-list">
+                        <p
+                            style="
+                                color: var(--text-secondary);
+                                font-size: 13px;
+                            "
+                        >
+                            Carregando...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="details-section">
+                    <h3>🏆 Destaques</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">⭐</div>
+                            <div class="highlight-value" id="total-stars">
+                                0
+                            </div>
+                            <div class="highlight-label">Stars</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🔄</div>
+                            <div class="highlight-value" id="total-forks">
+                                0
+                            </div>
+                            <div class="highlight-label">Forks</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">📦</div>
+                            <div class="highlight-value" id="public-repos">
+                                0
+                            </div>
+                            <div class="highlight-label">Repositórios</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hire Button -->
+            <a
+                href="https://www.linkedin.com/in/guilherme-lima-079a74257/"
+                target="_blank"
+                class="hire-btn"
+            >
+                Contrate-me
+                <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                >
+                    <path
+                        d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"
+                        stroke-width="2"
+                    />
+                </svg>
+            </a>
+        </div>
+
+        <!-- Scripts -->
+        <script src="api/getPortifolio.js"></script>
+        <script src="scripts/stats-loader.js"></script>
+        <script src="scripts/projects-loader.js"></script>
+        <script src="scripts/details-loader.js"></script>
+        <script src="scripts/tabs.js"></script>
+        <script src="./scripts/typewrite.js"></script>
+        <script src="./scripts/theme-toggle.js"></script>
+    </body>
+</html>

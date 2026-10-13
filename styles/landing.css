@@ -1,0 +1,269 @@
+.landing {
+    min-width: 320px;
+    min-height: 100svh;
+    padding: clamp(20px, 5vw, 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.landing-content {
+    width: min(100%, 1040px);
+    display: grid;
+    gap: 14px;
+}
+
+.landing-intro,
+.landing-portrait {
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.landing-intro {
+    padding: clamp(24px, 5vw, 48px);
+    background: var(--bg-secondary);
+}
+
+.landing-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: clamp(32px, 6vw, 58px);
+}
+
+.landing-avatar {
+    width: 48px;
+    height: 48px;
+    border: 2px solid var(--surface-muted);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 32%;
+}
+
+.landing-name {
+    font-size: 14px;
+    font-weight: 650;
+    letter-spacing: -0.015em;
+}
+
+.landing-role {
+    margin-top: 3px;
+    color: var(--text-secondary);
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.landing-copy {
+    max-width: 700px;
+}
+
+.landing-copy .landing-eyebrow {
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.landing-copy h1 {
+    max-width: 680px;
+    font-size: clamp(32px, 6vw, 58px);
+    font-weight: 600;
+    letter-spacing: -0.045em;
+    line-height: 1.08;
+}
+
+.landing-copy #maquina {
+    min-height: 1.5em;
+    margin-top: 12px;
+    color: var(--text-secondary);
+    font-size: clamp(16px, 2vw, 19px);
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.landing-copy .landing-description {
+    max-width: 540px;
+    margin-top: 8px;
+    color: var(--text-secondary);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 1.7;
+}
+
+.landing-portrait {
+    position: relative;
+    min-height: 300px;
+    height: min(52svh, 460px);
+    background: var(--portrait-bg);
+}
+
+.landing-portrait::after {
+    position: absolute;
+    inset: 35% 0 0;
+    background: linear-gradient(transparent, rgb(0 0 0 / 42%));
+    content: "";
+    pointer-events: none;
+}
+
+.landing-portrait > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center 38%;
+}
+
+.landing-actions {
+    position: absolute;
+    z-index: 1;
+    right: clamp(16px, 3vw, 28px);
+    bottom: clamp(16px, 3vw, 28px);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.landing-scroll {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 15px;
+    border: 1px solid rgb(255 255 255 / 42%);
+    border-radius: 999px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+        background-color 180ms ease,
+        transform 180ms ease;
+}
+
+.landing-scroll:hover {
+    transform: translateY(-2px);
+    background: var(--surface-muted);
+}
+
+.landing-scroll:focus-visible,
+.theme-toggle:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+}
+
+.theme-toggle {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition:
+        background-color 180ms ease,
+        color 180ms ease,
+        transform 180ms ease;
+}
+
+.theme-toggle:hover {
+    transform: translateY(-2px);
+    background: var(--surface-muted);
+}
+
+.theme-toggle[hidden],
+.theme-icon[hidden] {
+    display: none;
+}
+
+.theme-icon:not([hidden]) {
+    display: block;
+}
+
+#mouse-icon {
+    animation: scrollview 1s ease-in-out infinite alternate;
+}
+
+@keyframes scrollview {
+    to {
+        transform: translateY(3px);
+    }
+}
+
+#maquina::after {
+    content: "|";
+    animation: piscar 0.8s infinite;
+}
+
+@keyframes piscar {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .landing {
+        min-height: auto;
+        padding: 16px 12px 28px;
+    }
+
+    .landing-content {
+        gap: 10px;
+    }
+
+    .landing-intro,
+    .landing-portrait {
+        border-radius: 18px;
+    }
+
+    .landing-intro {
+        padding: 24px 22px 28px;
+    }
+
+    .landing-profile {
+        margin-bottom: 34px;
+    }
+
+    .landing-portrait {
+        height: 58svh;
+        min-height: 260px;
+    }
+
+    .landing-portrait > img {
+        object-position: center 35%;
+    }
+
+    .landing-actions {
+        right: 12px;
+        bottom: 12px;
+        gap: 7px;
+    }
+
+    .landing-scroll {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .theme-toggle {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #mouse-icon,
+    #maquina::after {
+        animation: none;
+    }
+
+    .landing-scroll,
+    .theme-toggle {
+        transition: none;
+    }
+}
